@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  border-style: solid;
+  border-radius: 25px;
+  background: cornsilk;
+}
+
+h2 {
+  color: black;
+  font-size: xx-large;
+  padding: 10px;
+}
+.results {
+  color: black;
+  font-size: xx-large;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: justify;
+  font-weight: bold;
+}
+h3 {
+  font-weight: bolder;
+}
+
+.tues {
+  border: solid;
+  border-radius: 10px;
+  padding: 5px;
+  border-color: gray;
+}
+
+.days {
+  text-align: absolute;
+  font-weight: bold;
+  color: blue;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Weather App</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/ab2ce4f502.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <h1>Weather App</h1>
+    <div class="container">
+      <div class="weather-app">
+        <form class="search-form" id="search-form">
+          <input type="search" placeholder="Search city.." id="city-input"/>
+          <button type="submit" value="Search">Search</button>
+          <button id="current-location-button">Current</button>
+        </form>
+        <h2 id="city"></h2>
+        <h3 id="date"></h3>
+        <span class="temperature" id="temperature"></span><span class="units">°C</span>
+        <p id="description"></p>
+      </div>
+    </div>
+
+      <div class="row">
+        <div class="col">
+          now <br />
+          <i class="fa-solid fa-sun" style="color: #eefd26;"></i> <br />
+          23°C
+        </div>
+        <div class="col">
+          14:00 <br />
+
+          <i class="fa-solid fa-sun" style="color: #eefd26;"></i><br />
+          23°C
+        </div>
+        <div class="col">
+          15:00 <br />
+          <i class="fa-solid fa-sun" style="color: #eefd26;"></i> <br />
+          24°C
+        </div>
+        <div class="col">
+          16:00 <br />
+          <i class="fa-solid fa-sun" style="color: #eefd26;"></i> <br />
+          23°C
+        </div>
+        <div class="col">
+          17:00 <br />
+          <i class="fa-solid fa-sun" style="color: #eefd26;"></i> <br />
+          22°C
+        </div>
+        <div class="col">
+          18:00 <br />
+          <i class="fa-solid fa-sun" style="color: #eefd26;"></i> <br />
+          21°C
+        </div>
+      </div>
+      <br />
+      <hr />
+      <br />
+      <div class="weekdays">
+        <span class="days">Today ⛅</span>
+        <span class="tues">12°C ----------------------24°C</span>
+      </div>
+      <br />
+      <div class="weekdays">
+        <span class="days">Tuesday ⛅</span>
+        <span class="tues">12°C ----------------------23°C</span>
+      </div>
+      <br />
+      <div class="weekdays">
+        <span class="days">Wednesday ⛅</span>
+        <span class="tues">13°C ----------------------25°C</span>
+      </div>
+      <br />
+      <div class="weekdays">
+        <span class="days">Thursday 🌞</span>
+        <span class="tues">14°C ----------------------26°C</span>
+      </div>
+      <br />
+      <div class="weekdays">
+        <span class="days">Friday 🌧/60%</span>
+        <span class="tues">13°C ----------------------20°C</span>
+      </div>
+      <br />
+      <div class="weekdays">
+        <span class="days">Saturday 🌧/60%</span>
+        <span class="tues">12°C ----------------------23°C</span>
+      </div>
+      <br />
+      <div class="weekdays">
+        <span class="days">Sunday 🌧/30%</span>
+        <span class="tues">13°C ----------------------24°C</span>
+      </div>
+    </div>
+    
+    <script src="spread.js"></script>
+
+  </body>
+</html>
